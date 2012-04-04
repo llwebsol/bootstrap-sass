@@ -31,7 +31,7 @@
 .hidden-desktop    { display: none; }
 
 // Phones only
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   // Show
   .visible-phone     { display: block; }
   // Hide
@@ -42,7 +42,7 @@
 }
 
 // Tablets & small desktops only
-@media (min-width: 769px) and (max-width: 979px) {
+@media (min-width: 770px) and (max-width: 979px) {
   // Show
   .visible-tablet    { display: block; }
   // Hide
@@ -121,7 +121,7 @@
 // LANDSCAPE PHONE TO SMALL DESKTOP & PORTRAIT TABLET
 // --------------------------------------------------
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
 
   // Padding to set content in a bit
   body {
@@ -178,7 +178,7 @@
 // PORTRAIT TABLET TO DEFAULT DESKTOP
 // ----------------------------------
 
-@media (min-width: 769px) and (max-width: 979px) {
+@media (min-width: 770px) and (max-width: 979px) {
 
   // Fixed grid
   @include gridCore(42px, 20px);
